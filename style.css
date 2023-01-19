@@ -1,7 +1,15 @@
+body{
+    padding-top: 80px;
+}
 header{
     background-color: black;
     width: 100%;
     height: 80px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 2;
+    
     
 }
 #titulo{
@@ -33,21 +41,28 @@ header{
 }
 .quitar:hover{
     color: rgb(177, 120, 120);
-    font-size: 0.9em;
+    font-size: 0.95em;
     cursor: pointer;
+    transition: all .4s ease-in-out;
 }
 section{
     width: 950px;
     height: 550px;
-    border: 1px solid black;
-    
+    z-index: 1;
+    overflow: hidden;
 
 }
 #fInicio{
-    width: 100%;
+    width: 120%;
     padding-top: 0%;
     float:left;
     top: 0px;
+    
+}
+
+#fInicio:hover{
+    filter: blur(5px);
+    transition: all .5s ease-in-out;
 }
 
 
