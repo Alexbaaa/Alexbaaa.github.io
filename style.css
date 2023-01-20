@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+/* Estilado cabezera */
 header{
     background-color: black;
     width: 100%;
@@ -48,6 +49,11 @@ header{
     cursor: pointer;
     transition: all .4s ease-in-out;
 }
+.menublanco{
+
+    color: white;
+}
+/* Estilado imagen pricipal*/
 #imgInicio{
     width: 100%;
     height: 700px;
@@ -74,22 +80,50 @@ header{
     text-shadow: 3px 3px 4px black;
     
 }
-.menublanco{
-    color: white;
-}
+
+/*Estilado del footer*/
 
 .footer{
 
     background-color: black;
     color: white;
+    overflow: hidden;
 }
 .footer div{
-    border: 1px solid pink;
-    width: 28%;
-    height: 100px;
-    margin: 4%;
-}
-.footer li{}
 
+    width: 40%;
+    height: 150px;
+    margin: 5%;
+
+    
+}
+
+.footer li{
+
+    list-style: none;
+    text-align: center;
+    margin: 3%;
+    
+}
+#left{
+    position: relative;
+    float: left;
+    
+}
+#right{
+    position: relative;
+    float: right;
+    text-align: left;
+    
+}
+
+.enfasis {
+    font-size: 1.5em;
+    border-bottom: 2px solid white;
+    border-radius: 30%;
+    padding-bottom: 2%;
+}
+
+/* Estilado del contenido pagina Inicio*/
 
 
