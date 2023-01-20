@@ -81,6 +81,7 @@ header{
     
 }
 
+
 /*Estilado del footer*/
 
 .footer{
@@ -92,9 +93,9 @@ header{
 .footer div{
 
     width: 40%;
-    height: 150px;
+    height: 100px;
     margin: 5%;
-
+    padding-bottom: 3%;
     
 }
 
@@ -110,13 +111,17 @@ header{
     float: left;
     
 }
-#right{
+.right{
     position: relative;
     float: right;
     text-align: left;
     
 }
+.right a {
+    text-decoration: none;
+    color: white;
 
+}
 .enfasis {
     font-size: 1.5em;
     border-bottom: 2px solid white;
