@@ -53,32 +53,43 @@ header{
     height: 700px;
     z-index: 1;
     overflow: hidden;
-    margin: 0px;
+    margin: 0px;  
 
 }
 #fInicio{
     width: 100%;
     padding-top: 0%;
     margin: 0px;
+    filter: saturate(90%) blur(2px);
     
-    
-}
-
-#fInicio:hover{
-    filter: blur(5px);
-    transition: all .5s ease-in-out;
 }
 #h2Imagen{
 
     position: absolute;
     top: 200px;
     left: 150px;
-    color: white;
+    color: rgb(241, 240, 240);
     font-size: 4em;
     text-align: center;
+    text-shadow: 3px 3px 4px black;
     
-
 }
+.menublanco{
+    color: white;
+}
+
+.footer{
+
+    background-color: black;
+    color: white;
+}
+.footer div{
+    border: 1px solid pink;
+    width: 28%;
+    height: 100px;
+    margin: 4%;
+}
+.footer li{}
 
 
 
