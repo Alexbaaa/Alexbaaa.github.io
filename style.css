@@ -44,7 +44,7 @@ header{
 
 }
 .quitar:hover{
-    color: rgb(177, 120, 120);
+    color: rgb(241, 96, 96);
     font-size: 0.95em;
     cursor: pointer;
     transition: all .4s ease-in-out;
@@ -131,4 +131,26 @@ header{
 
 /* Estilado del contenido pagina Inicio*/
 
+.historia{
 
+    width: 100%;
+    height: 700px;
+    
+}
+.historiaright{
+
+    width: 50%;
+    text-align: center;
+}
+.historiaright h3{
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: grey;
+}
+.historiaright p{
+    font-size: 1.4em;
+}
+.historiaright pacos{
+    color: rgb(165, 33, 33);
+    font-size:2.1em;
+}
