@@ -135,12 +135,44 @@ header{
 
     width: 100%;
     height: 700px;
-    
+    margin-top: 8em;
+
+
 }
-.historiaright{
+.historialeft{
 
     width: 50%;
+    float: left;
+
+}
+    /* posicionamiento de las imagenes */
+
+#imgInicio1{
+    width: 45%;
+    margin-left: 5em;
+    display: block;
+}
+#imgInicio2{
+    width: 35%;
+    margin: 2em;
+    margin-top:5em;
+
+}
+#imgInicio3{
+    width: 40%;
+    margin-bottom: 6em;
+    margin-left: 2em;
+}
+
+   /*Fin del posicionamiento de las imagenes*/
+.historiaright{
+
+    width: 48%;
     text-align: center;
+    float: right;
+    margin-top: 6em;
+    padding-right: 1.3em;
+
 }
 .historiaright h3{
     font-size: 2em;
