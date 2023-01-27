@@ -136,7 +136,7 @@ header{
 
     width: 100%;
     height: 700px;
-    margin-top: 12em;
+    margin-top: 15em;
 
 
 }
@@ -188,7 +188,7 @@ rojo{
     font-size:2.1em;
 }
 
-/*div nuestra carta*/
+    /*div nuestra carta*/
 
 .carta{
 
@@ -254,3 +254,45 @@ rojo{
 
  
 }
+
+    /*div granada*/
+
+
+
+.granada{
+    width: 100%;
+    height: 700px;
+    margin-top: 10em;
+}
+
+/*Maquetacion derecha*/
+
+.gright{
+
+    width: 45%;
+    text-align: center;
+    float: right;
+    margin-top: 9em;
+    margin-right: 3em;
+
+}
+.gright p{
+
+    font-size: 1.4em;
+}
+
+.gright h3{
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: grey;
+}
+
+/*Maquetacion Izquierda*/
+
+.gleft {
+
+    width: 45%;
+    float: left;
+
+}
+
