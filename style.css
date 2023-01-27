@@ -398,3 +398,23 @@ rojo{
 }
 
    /*FIN TIPOS DE MENU*/
+
+
+/*MAQUETACION VINOTECA*/
+
+.tituloVinoteca{
+    width: 100%;
+    height: 200px;
+}
+.tituloVinoteca h3{
+    color: gray;
+    font-size: 2em;
+    text-align: center;
+    margin-left: 3em;
+}
+.galeria img{
+    width: 20%;
+    border: 1px solid gray;
+}
+/*FIN MAQUETACION VINOTECA*/
+
