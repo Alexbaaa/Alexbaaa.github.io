@@ -44,7 +44,7 @@ header{
 
 }
 .quitar:hover{
-    color: rgb(241, 96, 96);
+    color: rgb(165, 33, 33);
     font-size: 0.95em;
     cursor: pointer;
     transition: all .4s ease-in-out;
@@ -408,23 +408,34 @@ rojo{
 
 /*MAQUETACION VINOTECA*/
 
-.tituloVinoteca{
+.imgVinos{
+
     width: 100%;
-    height: 200px;
+    height: 700px;
     margin-top: 10em;
+
+    
+}
+.tituloVinoteca{
+    width: 40%;
+    height: 200px;
+    margin-top: 15em;
     margin-bottom: 5em;
+    display: inline-block;
 }
 .tituloVinoteca h3{
     color: gray;
     font-size: 2em;
     text-align: center;
     margin-left: 3em;
+
 }
 .galeria{
     display: flex;
-    width: 100%;
+    width: 60%;
     height: 400px;
-    overflow: hidden;
+    float: right;
+    margin-top: 7em;
 
 }
 
@@ -449,6 +460,25 @@ rojo{
     
 }
 
+.tituloVinoteca a{
+
+    border: 1px solid rgb(165, 33, 33);
+    color: rgb(165, 33, 33);
+    width: 30%;
+    text-align: center;
+    float: left;
+    margin-left: 13.5em;
+    margin-top: 2em;
+    text-decoration: none;
+    font-size: 1.1em;
+
+}
+.tituloVinoteca a:hover{
+
+    background-color: rgb(165, 33, 33);
+    color: white;
+    transition: all .6s ease-in-out;
+}
 
 
 /*FIN MAQUETACION VINOTECA*/
