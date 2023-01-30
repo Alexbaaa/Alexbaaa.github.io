@@ -362,15 +362,20 @@ rojo{
 
     width: 100%;
     height: 700px;
+    margin-top: 10em;
+    margin-bottom: 4em;
 
 }
 
+.tiposMenusrigth{
+    width: 60%;
+    float: right;
+}
 .tiposmenu ol{
     
-    margin-left: 10em;
-    margin-top: 10em;
+    margin-left: 20em;
+    margin-top: 5em;
     list-style: none;
-    float: left;
     align-items: center;
 }
 .tiposmenu a{
@@ -397,12 +402,31 @@ rojo{
 .tiposmenu h3{
     color: gray;
     text-align: center;
-    float: right;
     font-size: 2.5em;
-    margin-top: 5em;
-    margin-right: 6em;
+    margin-top: 2em;
+    margin-left: 0.6em;
 }
+.tiposmenu img{
 
+    width: 20%;
+}
+#imgMenu2{
+
+    margin-left: 6em;
+    float: left;
+    margin-bottom: 2em;
+}
+#imgMenu3{
+
+    margin-left: 15em;
+    float:right;
+    margin-bottom: 2em;
+}
+#imgMenu4{
+
+    margin-left: 6em;
+    margin-bottom: 2em;
+}
    /*FIN TIPOS DE MENU*/
 
 
