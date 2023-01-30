@@ -385,8 +385,8 @@ rojo{
     color: white;
     background-color: brown;
     border: 1px solid brown;
-    border-radius: 30%;
-    transition: all .4s ease-in-out;
+    border-radius: 20%;
+    transition: all .3s ease-in-out;
 
 }
 .tiposmenu li{
@@ -411,6 +411,8 @@ rojo{
 .tituloVinoteca{
     width: 100%;
     height: 200px;
+    margin-top: 10em;
+    margin-bottom: 5em;
 }
 .tituloVinoteca h3{
     color: gray;
@@ -418,9 +420,36 @@ rojo{
     text-align: center;
     margin-left: 3em;
 }
-.galeria img{
-    width: 20%;
-    border: 1px solid gray;
+.galeria{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+
 }
+
+.galeria img{
+
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .95;
+    transition: .5s ease;
+
+
+}
+
+.galeria img:hover{
+
+    cursor: pointer;
+    transform: scale(1.30);
+    width: 50px;
+    opacity: 1;
+    filter: contrast(120%);
+    
+}
+
+
+
 /*FIN MAQUETACION VINOTECA*/
 
