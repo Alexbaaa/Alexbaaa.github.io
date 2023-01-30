@@ -369,19 +369,25 @@ rojo{
     
     margin-left: 10em;
     margin-top: 10em;
-    list-style: upper-roman;
+    list-style: none;
     float: left;
+    align-items: center;
 }
 .tiposmenu a{
 
     text-decoration: none;
     color: black;
-    padding-inline-start: 1em;
+
 
 }
 .tiposmenu a:hover{
 
-    color:rgb(131, 24, 24);
+    color: white;
+    background-color: brown;
+    border: 1px solid brown;
+    border-radius: 30%;
+    transition: all .4s ease-in-out;
+
 }
 .tiposmenu li{
     
