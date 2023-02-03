@@ -32,10 +32,17 @@ header{
     top: 35%;
 
 }
+#menu ul{
+    display: flex;
+    gap: 4em;
+
+}
 .sli{
     display: inline;
     list-style: none;
-    padding-inline: 5px;
+    padding-inline: 1.5%;
+    flex-grow: 1;
+    object-fit: cover;
 
 }
 .quitar{
@@ -45,9 +52,9 @@ header{
 }
 .quitar:hover{
     color: rgb(165, 33, 33);
-    font-size: 0.95em;
+    font-size: 1.1em;
     cursor: pointer;
-    transition: all .4s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 .menublanco{
 
@@ -96,6 +103,7 @@ header{
 }
 .footer div{
     text-align: center;
+    margin: 3em;
 }
 .footer a{
     text-decoration: none;
@@ -104,7 +112,7 @@ header{
 .footer li{
 
     list-style-type: none;
-    margin-top: 1em;
+    margin: 1em;
 }
 .enfasis {
     font-size: 1.5em;
