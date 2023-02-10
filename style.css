@@ -602,9 +602,32 @@ rojo{
     
 }
 
-
-
-
-
 /*FIN MAQUETACION RESTAURANTES*/
+
+/*Inicio estilado Reserva*/
+
+
+.contFormulario{
+
+    width: 100%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;
+}
+.tituloFormulario {
+    margin-top: 7em;
+
+}
+
+.tituloFormulario h2{
+        
+    color: gray;
+    font-size: 2.3em;
+    text-align: center;
+
+}
+/*Fin estilado Reserva*/
+
+
 
