@@ -544,17 +544,30 @@ rojo{
     margin-top: 3em;
     margin-left: 7em;
 }
+.tituloMpas{
 
+    width: 100%;
+    height: 100px;
+    margin-top: 14em;
+    margin-bottom: 6em;
+
+}
+.tituloMpas h2{
+
+    color: gray;
+    font-size: 2em;
+    text-align: center;
+}
 .contMaps{
 
     width: 100%;
-    height: 900px;
+    height: 1000px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3em;
+    gap: 1em;
     padding-left: 12em;
-    border: 1px solid black;
-    margin-top:17em;
+
+
     
     
 }
@@ -563,15 +576,30 @@ rojo{
     width: 300px;
     height: 300px;
     overflow: hidden;
-
-    border-radius: 50%;
+    border: 1px solid black;
+    border-radius: 45%;
 }
 .contMaps a:hover{
 
     border-radius: 0%;
-    transition: all .3s ease-in-out;
+    transition: all .5s ease-in-out;
     transform: scale(1.2);
+    border: 2px solid red;
 
+}
+
+.contMaps p {
+
+    width: 17%;
+    height: 30px;
+    margin-left: 4em;
+    padding-left: 1em;
+    font-size: 1.4em;
+    color: gray;
+    border-bottom: 1px solid red;
+    border-radius: 12%;
+    justify-items: center;
+    
 }
 
 
